@@ -17,8 +17,8 @@ media = (nota1 + nota2 + nota3 + nota4)  /4
 # senão, -> Recuperação
 
 if media >= 7:
-    print("Aprovado")
+    print("Sua nota média é "   + str(media) +   " Aprovado")
 elif media <= 4:
-    print("Reprovado")
+    print("Sua nota média é "   + str(media) +   " Reprovado")
 else :
-    print("Recuperação")
+    print("Sua nota média é "   + str(media) +    " Recuperação")
